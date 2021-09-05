@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
+@import "variable.css";
+@import "reset.css";
+
+body {
+  font-family: "ZCOOL KuaiLe", cursive;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hidden {
+  display: none;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+#weather {
+  text-align: center;
+  color: var(--text-color);
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 10px;
+}
+.login-form__text,
+#greeting {
+  text-align: center;
+  font-family: "ZCOOL KuaiLe", cursive;
+  border: none;
+  background-color: transparent;
+  border-radius: 12px;
+  font-size: 60px;
+  color: #fff;
+}
+.login-form__text::placeholder {
+  font-family: "ZCOOL KuaiLe", cursive;
+  color: var(--text-color);
+  border-bottom: 3px solid var(--text-color);
+}
+.now {
+  color: var(--text-color);
+  font-weight: 600;
+  font-size: 60px;
+  text-align: center;
+}
+#clock {
+  margin-top: 10px;
+}
+
+#quote {
+  margin-top: 30px;
+  font-size: 40px;
+  color: var(--text-color);
+  text-align: center;
+}
+
+#todo-form {
+  margin-top: 20px;
+}
+
+.icon {
+  position: absolute;
+  left: 100px;
+  bottom: 40px;
+  width: 550px;
+}
+.todo-memo {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10px;
+}
+ul li:first-child {
+  margin-top: 20px;
+}
+ul li {
+  margin-top: 10px;
+}
+
+ul li span {
+  color: var(--text-color);
+  font-size: 40px;
+  font-weight: 600;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: tomato;
+  font-size: 30px;
+  font-weight: 600;
+}
